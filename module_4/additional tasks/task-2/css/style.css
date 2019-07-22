@@ -1,0 +1,17 @@
+.my-main {
+width: 400px;
+margin: 0 auto;
+}
+.my-list {
+    list-style: none;
+    color: #0E1116;
+}
+.my-list li:nth-child(1n){
+background: #88292F;
+}
+.my-list li:nth-child(2n){
+    background: #5db7de;
+}
+.my-list li:nth-child(3n){
+    background: #0d5d56;
+}

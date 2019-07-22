@@ -1,0 +1,14 @@
+body {
+    font-family: 'Barriecito', cursive, sans-serif;
+}
+.nine-list {
+    list-style: none;
+    font-size: 14px;
+}
+.nine-list a {
+    text-decoration: none;
+    color: blueviolet;
+}
+.nine-list a::before {
+    content: "\2192"
+}

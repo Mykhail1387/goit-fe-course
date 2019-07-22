@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+.life-artic {
+    width: 960px;
+    margin: 0 auto;
+    font-size: 0;
+    font-family: 'Playfair Display', serif;
+}
+.one-block {
+    display: inline-block;
+    width: 416px;
+    margin-left: 64px;
+    }
+.two-block {
+    display: inline-block;
+    width: 416px;
+    margin-left: 64px;
+}
+img {
+  padding: 25px 0;
+}
+.my-style {
+    font-size: 14px;
+    color: #636362;
+    padding: 15px;
+}
+.my-devis {
+    font-size: 25px;
+    color: #636362;
+    padding: 15px;
+}
+
+.my-text {
+    font-size: 14px;
+    color: #636362;
+    padding: 20px;
+    line-height: 24px;
+    }
+

@@ -1,0 +1,25 @@
+.my-header {
+    width: 770px;
+    font-family: 'Playfair Display', serif;
+    margin: 0 auto;
+    }
+.my-ul {
+        text-align: center;
+}
+.my-ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+        }
+.my-ul a {
+    text-decoration: none;
+                }
+.my-ul a:hover {
+    color: brown;
+    }
+.my-ul li:last-child {
+    margin-right: 0;
+    }
+
+
+

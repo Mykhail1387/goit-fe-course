@@ -1,0 +1,30 @@
+body {
+    font-family: ;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: 'Bahianita', cursive, sans-serif;
+}
+
+.clearfix::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+    .my-header {
+        width: 400px;
+        margin: 0 auto;
+    }
+    .my-menu {
+        float: right;
+    }
+    .my-menu li {
+        list-style: none;
+        float: left;
+        margin-right: 30px;
+        }
+    .my-menu li:last-child {
+    margin: 0;
+}
+    .my-menu li:hover {
+        color: red;
+    }
