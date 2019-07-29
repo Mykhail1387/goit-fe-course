@@ -1,18 +1,18 @@
 @font-face {
   font-family: italic;
-  src: url(/fonts/pt-serif-v11-cyrillic_latin-italic.woff);
+  src: url(../fonts/pt-serif-v11-cyrillic_latin-italic.woff);
 }
 @font-face {
   font-family: montserrat;
-  src: url(/fonts/montserrat-v14-latin_cyrillic-regular.woff)
+  src: url(../fonts/montserrat-v14-latin_cyrillic-regular.woff);
 }
 @font-face {
   font-family: montserrat-bold;
-  src: url(/fonts/montserrat-v14-latin_cyrillic-700.woff)
+  src: url(../fonts/montserrat-v14-latin_cyrillic-700.woff);
 }
 @font-face {
   font-family: roboto;
-  src: url(/fonts/roboto-slab-v9-latin_cyrillic-regular.woff)
+  src: url(../fonts/roboto-slab-v9-latin_cyrillic-regular.woff);
 }
 * {
   margin: 0;
@@ -29,7 +29,7 @@
   width: 485px;
   justify-content: space-between;
   list-style: none;
-  }
+}
 .site-navigation a {
   text-decoration: none;
   color: rgb(0, 0, 0);
@@ -96,13 +96,13 @@
   font-family: roboto;
 }
 .icon-basket::before {
-  background-image: url(/img/icons/icon-Basket.png);
+  background-image: url(../img/icons/icon-Basket.png);
 }
 .icon-laptop::before {
-  background-image: url(/img/icons/Icon-Laptop.png);
+  background-image: url(../img/icons/Icon-Laptop.png);
 }
 .icon-locked::before {
-  background-image: url(/img/icons/Icon-Locked.png);
+  background-image: url(../img/icons/Icon-Locked.png);
 }
 .second-part {
   position: relative;
@@ -127,16 +127,16 @@
   border: none;
   border-radius: 3px;
   padding-left: 20px;
-  }
+}
 .input-name {
   position: absolute;
-  }
-  .required:valid {
-    outline: 2px solid green;
-  }
-  .required:invalid {
-    outline: 2px solid red;
-  }
+}
+.required:valid {
+  outline: 2px solid green;
+}
+.required:invalid {
+  outline: 2px solid red;
+}
 .input-email {
   position: absolute;
   top: 80px;
@@ -154,7 +154,7 @@ textarea {
   border-radius: 3px;
   padding: 20px;
   box-sizing: border-box;
-  }
+}
 
 .text-form {
   color: rgb(187, 187, 187);
@@ -162,7 +162,7 @@ textarea {
   font-size: 14px;
   line-height: 3.5;
   font-family: montserrat-bold;
-  }
+}
 .button {
   position: absolute;
   bottom: 0;
@@ -179,9 +179,3 @@ textarea {
   color: rgb(255, 255, 255);
   font-family: montserrat-bold;
 }
-
-
-
-
-
-
