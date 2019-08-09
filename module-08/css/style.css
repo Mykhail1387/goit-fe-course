@@ -98,7 +98,7 @@
 }
 .television::after {
   background: rgb(255, 78, 80);
-  background-image: url(/img/icons/1.icon-tv.png);
+  background-image: url(../img/icons/1.icon-tv.png);
   background-repeat: no-repeat;
   background-position: center;
 }
