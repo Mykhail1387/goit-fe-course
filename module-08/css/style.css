@@ -158,11 +158,16 @@
 }
 @media (max-width: 699px) {
   .section-header {
-    width: 320px;
     height: 540px;
     background-image: url(../img/mobile/mobile-jpg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     margin: 0 auto;
     margin-bottom: 60px;
+  }
+  .slider {
+    max-width: 320px;
+    margin: 0 auto;
   }
   .knopki {
     display: flex;
@@ -181,9 +186,8 @@
     background-position: center;
   }
   .slider {
-    width: 748px;
+    max-width: 748px;
     height: 700px;
-    margin: 0 auto;
     position: relative;
   }
   .knopki {
@@ -236,12 +240,11 @@
     background-position: center;
   }
   .slider {
-    width: 942px;
+    max-width: 942px;
     height: 700px;
-    margin: 0 auto;
   }
   .container {
-    width: 942px;
+    max-width: 942px;
   }
   .knopki {
     right: 0;
