@@ -20,6 +20,9 @@
 .section-header {
   margin-bottom: 60px;
 }
+.slider {
+  margin: 0 auto;
+}
 .log-in {
   font-size: 14px;
   color: #fff;
