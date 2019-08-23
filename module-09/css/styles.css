@@ -1,0 +1,227 @@
+@font-face {
+  font-family: montserrat, sans-serif;
+  src: url(../fonts/montserrat-v14-latin_cyrillic-700.woff2);
+  font-weight: bold;
+}
+@font-face {
+  font-family: montserrat-regular, sans-serif;
+  src: url(../fonts/montserrat-v14-latin_cyrillic-regular.woff2);
+  font-weight: 400;
+}
+@font-face {
+  font-family: roboto, sans-serif;
+  src: url(../fonts/roboto-v20-latin_cyrillic-300.woff2);
+  font-weight: 300;
+}
+html {
+  overflow-x: hidden;
+}
+.wrapper-fon {
+  background-image: url(../img/mobile/mobile-jpg.jpg);
+  height: 540px;
+  background-repeat: no-repeat;
+  padding: 15px;
+  max-width: 320px;
+  margin: 0 auto;
+}
+.btn-log-in {
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  background: none;
+}
+.btn-log-in:hover {
+  box-shadow: 0 0 2px 2px rgb(226, 76, 76);
+}
+.btn-sign-up {
+  font-size: 14px;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background: none;
+}
+.btn-sign-up:hover {
+  box-shadow: 0 0 2px 2px rgb(226, 76, 76);
+}
+.row-header {
+  height: 180px;
+}
+.logo {
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: montserrat, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.row-header-text {
+  text-align: center;
+ }
+.title-header {
+  text-transform: uppercase;
+  font-family: montserrat, sans-serif;
+  color: #fff;
+  font-size: 27px;
+  text-align: center;
+  margin: 25px 0 15px 0;
+}
+.text-paragraph {
+  font-size: 18px;
+  font-family: roboto, sans-serif;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  margin: 0 0 15px 0;
+}
+.btn-find-partner {
+  padding: 10px 35px;
+  background: rgb(255, 78, 80);
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  font-family: montserrat, sans-serif;
+ 
+}
+.title-two {
+  font-family: montserrat, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 55px 0 10px 0;
+  text-align: center;
+}
+.image-foto {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  margin: 0 auto;
+}
+.image-foto::after {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.television::after {
+  background: rgb(255, 78, 80);
+  background-image: url(../img/icons/1.icon-tv.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.coffee::after {
+  background: #ffa507;
+  background-image: url(../img/icons/2.icon-coffee.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.beaker::after {
+  background: #1cd7ad;
+  background-image: url(../img/icons/3.icon-beaker.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.plane::after {
+  background: #4e73db;
+  background-image: url(../img/icons/4.icon-plane.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.name {
+  font-family: montserrat, sans-serif;
+  font-size: 14px;
+  line-height: 2;
+  text-align: center;
+  color: rgb(51, 51, 51);
+}
+.hobby {
+  font-family: roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0 15px;
+  color: rgb(102, 102, 102);
+  padding-bottom: 30px;
+  width: 230px;
+  margin: 0 auto;
+}
+.btn-other-partner {
+  padding: 8px 70px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  border: 2px solid rgb(255, 78, 80);
+  background: none;
+  color: rgb(255, 78, 80);
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+@media (min-width: 768px) {
+  .wrapper-fon {
+    background-image: url(../img/tablet/tablet.jpg);
+    height: 700px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 35px;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  .container {
+    max-width: 768px;
+  }
+  .log-order {
+    order: -1;
+  }
+  .btn-log-in {
+    margin-left: 45px;
+  }
+  .row-header {
+    height: 170px;
+  }
+  .row-header-text {
+    padding-left: 25px;
+  }
+  .title-header {
+    font-size: 52px;
+    margin: 15px 0 25px 0;
+  }
+  .text-paragraph {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  .btn-find-partner {
+    padding: 10px 35px;
+  }
+  .Lucas-Marsha {
+    order: 1;
+  }
+  .Bradley-girl {
+    order: 2;
+  }
+  .btn-other-partner {
+    padding: 8px 35px;
+  }
+}
+@media (min-width: 992px) {
+  .wrapper-fon {
+    background-image: url(../img/desctop.jpg);
+    background-position: center;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    max-width: 1440px;
+
+  }
+}
+  .container {
+    max-width: 942px;
+  }
