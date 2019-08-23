@@ -173,13 +173,9 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 20px;
-    /* max-width: 768px; */
     margin: 0 auto;
   }
-  .container {
-    /* max-width: 768px; */
-  }
-  .log-order {
+    .log-order {
     order: -1;
   }
   .btn-log-in {
@@ -220,9 +216,7 @@ html {
     height: 700px;
     background-size: cover;
     background-repeat: no-repeat;
-    max-width: 1440px;
-
-  }
+      }
 }
   .container {
     max-width: 942px;
