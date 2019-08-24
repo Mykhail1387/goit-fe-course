@@ -49,6 +49,9 @@ html {
   box-shadow: 0 0 2px 2px rgb(43, 41, 41);
   color: red;
 }
+.logo-text:hover {
+  box-shadow: 0 0 3px 4px rgb(43, 41, 41);
+}
 .row-header {
   height: 180px;
   }
@@ -80,8 +83,10 @@ html {
   font-weight: bold;
   color: #fff;
   font-family: montserrat, sans-serif;
- 
-}
+ }
+ .btn-find-partner:hover {
+  box-shadow: 0 0 3px 4px rgb(43, 41, 41);
+ }
 .title-two {
   font-family: montserrat, sans-serif;
   font-size: 24px;
@@ -159,6 +164,10 @@ html {
   font-size: 14px;
   font-weight: bold;
 }
+.btn-other-partner:hover{
+  box-shadow: 0 0 3px 4px rgb(43, 41, 41);
+}
+
 @media (max-width: 767px) {
   .row-header-text {
     text-align: center;
