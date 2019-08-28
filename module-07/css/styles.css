@@ -5,10 +5,13 @@
 @font-face {
   font-family: montserrat;
   src: url(../fonts/montserrat-v14-latin_cyrillic-regular.woff);
+  font-style: normal;
 }
 @font-face {
-  font-family: montserrat-bold;
+  font-family: montserrat;
   src: url(../fonts/montserrat-v14-latin_cyrillic-700.woff);
+  font-weight: bold;
+  font-style: normal;
 }
 @font-face {
   font-family: roboto;
@@ -33,7 +36,8 @@
 .site-navigation a {
   text-decoration: none;
   color: rgb(0, 0, 0);
-  font-family: montserrat;
+  font-family: montserrat, sans-serif;
+  font-style: normal;
   font-size: 14px;
   text-transform: uppercase;
   line-height: 1.5px;
@@ -55,13 +59,14 @@
 }
 .title-text {
   text-align: center;
-  font-family: montserrat-bold;
+  font-family: montserrat, sans-serif;
+  font-weight: bold;
   font-size: 40px;
   line-height: 1.5;
   padding-top: 90px;
 }
 .sub-text {
-  font-family: italic;
+  font-family: italic, sans-serif;
   text-align: center;
   font-size: 16px;
   line-height: 1.5;
@@ -88,12 +93,13 @@
 .first-list-image h3 {
   font-size: 18px;
   line-height: 4.1;
-  font-family: montserrat-bold;
+  font-family: montserrat, sans-serif;
+  font-weight: bold;
   color: rgb(34, 34, 34);
 }
 .first-list-image p {
   color: rgb(119, 119, 119);
-  font-family: roboto;
+  font-family: roboto, sans-serif;
 }
 .icon-basket::before {
   background-image: url(../img/icons/icon-Basket.png);
@@ -131,12 +137,7 @@
 .input-name {
   position: absolute;
 }
-.required:valid {
-  outline: 2px solid green;
-}
-.required:invalid {
-  outline: 2px solid red;
-}
+
 .input-email {
   position: absolute;
   top: 80px;
@@ -161,7 +162,20 @@ textarea {
   text-transform: uppercase;
   font-size: 14px;
   line-height: 3.5;
-  font-family: montserrat-bold;
+  font-family: montserrat, sans-serif;
+  font-weight: bold;
+}
+input[type="email"]:focus:invalid,
+textarea[name="message"]:focus:invalid,
+input[name="user_name"]:focus:invalid {
+  outline: 2px solid red;
+  transition: outline-color 6s;
+}
+input[type="email"]:focus:valid,
+textarea[name="message"]:focus:valid,
+input[name="user_name"]:focus:valid {
+  outline: 2px solid green;
+  transition: outline-color 0.4s;
 }
 .button {
   position: absolute;
@@ -177,5 +191,6 @@ textarea {
   left: 50%;
   transform: translateX(-50%);
   color: rgb(255, 255, 255);
-  font-family: montserrat-bold;
+  font-family: montserrat, sans-serif;
+  font-weight: bold;
 }

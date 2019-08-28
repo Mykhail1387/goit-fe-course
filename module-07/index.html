@@ -63,24 +63,23 @@
       <h2 class="title second-title title-text" id="Contact">Contact us</h2>
       <p class="sub-title sub-text">Proin iaculis purus consecuat sem cure.</p>
       <img class="map-image" src="img/Map-Image.png" alt="map-image" />
-      <form class="send-message container" method="GET" action="#">
+      <form class="send-message container" method="POST" action="#">
         <input
-          class="form-input input-name text-form required"
+          class="form-input input-name text-form"
           type="text"
           placeholder="your name *"
-          autofocus
           required
           name="user_name"
         />
         <textarea
-          class="text-form required"
+          class="text-form"
           name="message"
           id="textarea"
           required
           placeholder="your message *"
         ></textarea>
         <input
-          class="form-input input-email text-form required"
+          class="form-input input-email text-form"
           type="email"
           placeholder="your e-mail *"
           name="user_email"
@@ -90,9 +89,10 @@
           class="form-input input-subject text-form"
           type="text"
           placeholder="subject"
+          autofocus
           name="subject"
         />
-        <button class="button">Send message</button>
+        <button type="submit" class="button">Send message</button>
       </form>
     </section>
   </body>
