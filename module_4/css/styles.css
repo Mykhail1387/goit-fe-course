@@ -29,7 +29,6 @@ img {
 }
 .site-nav li {
   float: left;
-  margin-top: 22px;
 }
 .site-nav li:not(:last-child) {
   margin-right: 30px;
