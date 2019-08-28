@@ -40,7 +40,7 @@ img {
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
-  color: #000000;
+  color: #000;
 }
 .site-nav a:hover {
   color: #2b9c86;
@@ -86,13 +86,13 @@ h2::after {
 .featured p {
   float: left;
   height: 40px;
-  color: #ffffff;
+  color: #fff;
   text-transform: uppercase;
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   text-align: center;
-  line-height: 42px;
+  line-height: 40px;
   margin-top: 0;
   margin-bottom: 30px;
 }
@@ -151,9 +151,9 @@ h2::after {
   height: 50px;
   background-color: #2b9c86;
   margin-bottom: 80px;
-  border: solid #ffffff;
+  border: solid #fff;
   border-radius: 7px;
-  color: #ffffff;
+  color: #fff;
   font-weight: 300;
   font-size: 16px;
 }
