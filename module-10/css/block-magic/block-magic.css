@@ -3,7 +3,9 @@
   width: 380px;
   cursor: pointer;
   position: relative;
-  transition-duration: 300ms;
+  -webkit-transition-duration: 300ms;
+       -o-transition-duration: 300ms;
+          transition-duration: 300ms;
 }
 .block-magiс__hide {
   width: 380px;
@@ -12,7 +14,9 @@
   top: 0;
   opacity: 0;
   background-color: #95e1d3;
-  transition-duration: 300ms;
+  -webkit-transition-duration: 300ms;
+       -o-transition-duration: 300ms;
+          transition-duration: 300ms;
 }
 
 .block-magiс__man {
@@ -27,25 +31,44 @@
   left: -8px;
   height: 470px;
   width: 380px;
-  transition-duration: 300ms;
+  -webkit-transition-duration: 300ms;
+       -o-transition-duration: 300ms;
+          transition-duration: 300ms;
 }
 
 .block-magiс:hover .block-magiс__hide {
   opacity: 1;
-  transition-duration: 300ms;
+  -webkit-transition-duration: 300ms;
+       -o-transition-duration: 300ms;
+          transition-duration: 300ms;
 }
 .block-magiс:hover .block-magic__box-hover {
+  background-image: -webkit-gradient(
+    linear,
+    left bottom, left top,
+    from(rgba(252, 227, 138, 0.9)),
+    to(rgba(243, 129, 129, 0.9))
+  );
+  background-image: -o-linear-gradient(
+    bottom,
+    rgba(252, 227, 138, 0.9),
+    rgba(243, 129, 129, 0.9)
+  );
   background-image: linear-gradient(
     to top,
     rgba(252, 227, 138, 0.9),
     rgba(243, 129, 129, 0.9)
   );
-  transition-duration: 300ms;
+  -webkit-transition-duration: 300ms;
+       -o-transition-duration: 300ms;
+          transition-duration: 300ms;
 }
 
 .block-magiс:hover .block-magiс__man {
   opacity: 1;
-  transition-duration: 300ms;
+  -webkit-transition-duration: 300ms;
+       -o-transition-duration: 300ms;
+          transition-duration: 300ms;
 }
 .block-magiс__name {
   text-transform: uppercase;

@@ -6,5 +6,6 @@
   border: 3px solid #fff;
 }
 .button:hover {
-  box-shadow: 0 0 3px 3px #000;
+  -webkit-box-shadow: 0 0 3px 3px #000;
+          box-shadow: 0 0 3px 3px #000;
 }
